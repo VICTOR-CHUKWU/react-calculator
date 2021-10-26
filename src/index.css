@@ -1,27 +1,58 @@
 body {
+  padding: 0;
   margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+  box-sizing: border-box;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.calculator-body {
+  border: 1px solid white;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 50vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.calculator-body button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgb(235, 230, 230);
+}
+
+.calculator-body button:hover {
+  background-color: rgb(165, 231, 231);
+}
+
+.double-space {
+  grid-column: span 2;
+}
+
+.output {
+  grid-column: 1 / -1;
+  background-color: rgb(173, 169, 169);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.previous-input {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.current-input {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.calculator-body .special {
+  background-color: rgb(226, 148, 45);
 }
