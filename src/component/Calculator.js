@@ -1,7 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 
-export class Calculator extends Component {
+class Calculator extends Component {
   render() {
     return (
       <>
