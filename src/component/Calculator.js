@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import calculate from '../logic/Calculate';
 import data from './button-data';
 
-function Calculator() {
+const Calculator = () => {
   const [calculator, setCalculator] = useState({
     total: 0,
     next: null,
@@ -48,6 +48,6 @@ function Calculator() {
       </div>
     </>
   );
-}
+};
 
 export default Calculator;
