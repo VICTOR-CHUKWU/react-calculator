@@ -1,0 +1,10 @@
+.quote {
+  margin: 2rem;
+}
+
+.quote p {
+  margin: 3rem auto;
+  font-size: 1.4rem;
+  color: black;
+  text-align: center;
+}
