@@ -5,7 +5,20 @@ body {
   box-sizing: border-box;
 }
 
+.calculate {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.calculate h2 {
+  width: 40%;
+  text-align: center;
+  color: black;
+}
+
 .calculator-body {
+  width: 60%;
   border: 1px solid white;
   display: grid;
   justify-content: center;

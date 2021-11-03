@@ -34,7 +34,8 @@ const Calculator = () => {
     result = next;
   }
   return (
-    <>
+    <div className="calculate">
+      <h2>lets do some maths</h2>
       <div className="calculator-body">
         <div className="output">
           <div className="previous-input">{result}</div>
@@ -46,7 +47,7 @@ const Calculator = () => {
         }
 
       </div>
-    </>
+    </div>
   );
 };
 
