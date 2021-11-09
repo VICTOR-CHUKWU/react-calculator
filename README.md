@@ -8,7 +8,7 @@ Calculator App
 
 ## Live Demo
 
-<!-- [Live Demo Link](https://victor-chukwu.github.io/capstone-one/) -->
+[Live Demo Link](https://victor-calculator.netlify.app/)
 
 ## Built With
 - react
